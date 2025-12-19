@@ -1,4 +1,4 @@
-Multimodal RAG Assistant (Text - Image - Audio)
+## Multimodal RAG Assistant (Text - Image - Audio)
 
 A **multimodal Retrieval-Augmented Generation (RAG)** system that supports **text, documents(with images) and voice input** built using **LangChain**, **Pinecone** and **self-hosted Ollama LLMs** with a **Streamlit** frontend.
 This project demonstrates how to build and deploy a **RAG system with conversational memory**, multimodal reasoning and local LLM inference.
@@ -9,7 +9,7 @@ This app uses self hosted LLMs, which requires a local runtime.
 If the link is inactive, please refer to the local setup instructions below.
 
 
-Key Features:
+## Key Features:
 -  **RAG with Pinecone** (document ingestion + semantic retrieval)
 -  **Persistent conversational memory** (follow up questions work correctly)
 -  **Image understanding**
@@ -21,10 +21,10 @@ Key Features:
 -  **Self hosted LLM inference** using Ollama
 -  **Public demo via Cloudflare Tunnel**
 
-Architecture Overview:
+## Architecture Overview:
 User -> Streamlit UI -> LangChain [Query Rewriting,Conversational Memory] -> Pinecone [Vector Retrieval] -> Ollama LLMs (Local) [Text LLM (Qwen), Vision LLM (Qwen-VL)]
 
-Technical Highlights:
+## Technical Highlights:
 - Persistent chat history 
 - Query rewriting for context aware follow up questions
 - Multimodal retrieval (text + image)
