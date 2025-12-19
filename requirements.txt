@@ -1,0 +1,27 @@
+#mentioned exact versions for reference:
+langchain==1.0.1
+langchain-core==1.0.1
+langchain-community==0.4.1
+langchain-text-splitters==1.0.0
+langchain-pinecone==0.2.13
+
+pinecone>=6.0.0,<8.0.0
+
+sentence-transformers==3.3.1
+transformers==4.45.2
+
+torch==2.4.1
+torchvision==0.19.1
+
+docling==2.14.0
+pymupdf==1.25.1
+
+assemblyai==0.38.0
+pydub==0.25.1
+gTTS==2.5.4
+
+gradio==5.7.1
+requests>=2.32.5,<3.0.0
+Pillow==11.0.0
+numpy==1.26.4
+httpx==0.28.1
