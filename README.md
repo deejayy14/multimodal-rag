@@ -1,4 +1,4 @@
-## Multimodal RAG Assistant (Text - Image - Audio)
+# Multimodal RAG Assistant (Text - Image - Audio)
 
 A **multimodal Retrieval-Augmented Generation (RAG)** system that supports **text, documents(with images) and voice input** built using **LangChain**, **Pinecone** and **self-hosted Ollama LLMs** with a **Streamlit** frontend.
 This project demonstrates how to build and deploy a **RAG system with conversational memory**, multimodal reasoning and local LLM inference.
@@ -30,7 +30,7 @@ User -> Streamlit UI -> LangChain [Query Rewriting,Conversational Memory] -> Pin
 - Multimodal retrieval (text + image)
 - Clean separation of ingestion,retrieval and generation logic
 
-#### Author:
+## Author:
 Dhananjay,
 B.Tech CSE (AI),
 Aspiring ML/LLM Engineer.
