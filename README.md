@@ -30,10 +30,11 @@ User -> Streamlit UI -> LangChain [Query Rewriting,Conversational Memory] -> Pin
 - Multimodal retrieval (text + image)
 - Clean separation of ingestion,retrieval and generation logic
 
-# Author:
+#### Author:
 Dhananjay,
 B.Tech CSE (AI),
 Aspiring ML/LLM Engineer.
+
 
 ### Setup Instructions:
 
